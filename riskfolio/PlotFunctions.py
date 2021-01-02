@@ -459,8 +459,7 @@ def plot_pie(
         abs_sizes,
         radius=1,
         wedgeprops=dict(width=size, edgecolor="black"),
-        startangle=-15,
-        normalize=True,
+        startangle=-15
     )
 
     # Equal aspect ratio ensures that pie is drawn as a circle.
